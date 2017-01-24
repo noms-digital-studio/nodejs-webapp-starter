@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-webapp-starter",
+  "version": "1.0.0",
+  "description": "Starting point for a webapp with Node and Express",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOMS-DIGITAL-STUDIO/nodejs-webapp-starter.git"
+  },
+  "author": "NOMS Digital Studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NOMS-DIGITAL-STUDIO/nodejs-webapp-starter/issues"
+  },
+  "homepage": "https://github.com/NOMS-DIGITAL-STUDIO/nodejs-webapp-starter#readme"
+}
