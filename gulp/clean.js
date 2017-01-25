@@ -1,5 +1,5 @@
-var gulp = require('gulp')
-var clean = require('gulp-clean')
+var gulp = require('gulp');
+var clean = require('gulp-clean');
 
 gulp.task('clean', function () {
     return gulp.src([
@@ -9,4 +9,4 @@ gulp.task('clean', function () {
         '*.log'
     ], {read: false})
         .pipe(clean())
-})
+});

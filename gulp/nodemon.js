@@ -1,7 +1,7 @@
-var fs = require('fs')
-var path = require('path')
-var gulp = require('gulp')
-var nodemon = require('gulp-nodemon')
+var fs = require('fs');
+var path = require('path');
+var gulp = require('gulp');
+var nodemon = require('gulp-nodemon');
 
 gulp.task('server', function () {
   nodemon({
@@ -18,4 +18,4 @@ gulp.task('server', function () {
 
     process.exit(0)
   })
-})
+});
