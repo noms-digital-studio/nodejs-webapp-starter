@@ -2,26 +2,28 @@ var gulp = require('gulp')
 var runSequence = require('run-sequence')
 
 gulp.task('default', function (done) {
-    runSequence('generate-assets',
+    runSequence(
+        'build',
         'watch',
         'server', done)
 })
 
+gulp.task('build', function (done) {
+    runSequence(
+        'clean',
+        'generate-assets', done)
+})
+
 gulp.task('generate-assets', function (done) {
-    runSequence('copy-govuk-modules',
+    runSequence(
+        'copy-govuk-modules',
         'sass',
         'copy-assets', done)
 })
 
-gulp.task('copy-govuk-modules', [
-    'copy-toolkit',
-    'copy-template-assets',
-    'copy-elements-sass',
-    'copy-template'
-])
-
 gulp.task('watch', function (done) {
-    runSequence('watch-sass',
+    runSequence(
+        'watch-sass',
         'watch-assets', done)
 })
 
