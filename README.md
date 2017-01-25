@@ -51,7 +51,7 @@ server.js is kept simple and does the following
  
 ### How to use the templates
 
-todo
+[Prototype Kit Documentation](https://govuk-prototype-kit.herokuapp.com/docs/tutorials-and-examples)
 
 
 ## Using this project as the basis of your own project
